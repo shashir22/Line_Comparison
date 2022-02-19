@@ -39,6 +39,15 @@ namespace LineComparison
             }
             else
                 Console.WriteLine("Two Lines are not Equal:");
+
+            if (Line1 > Line2)
+            {
+                Console.WriteLine("Line 1 is greater : " + Line1);
+            }
+            else
+            {
+                Console.WriteLine("Line 2 is greater : " + Line2);
+            }
         }
     }
 
